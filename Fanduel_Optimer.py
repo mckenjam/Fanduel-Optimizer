@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Dec  5 11:51:26 2020
+
+@author: James McKenna
+"""
+
 import pandas as pd
 from mip import Model, xsum, maximize, BINARY
 
@@ -105,11 +112,13 @@ m += xsum(TE[i]*TEcost[i] for i in max_list_length) >= 1
 m += xsum(FLEXRB[i]*RBcost[i] + FLEXWR[i]*WRcost[i] for i in max_list_length) >= 1
 m += xsum(DEF[i]*DEFcost[i] for i in max_list_length) >= 1
 
+# Initiate optimization
 m.optimize()
 
 total_points = 0
 total_costs = 0
 
+# Print the results to the console
 for itr, i in enumerate(max_list_length):
 	if QB[i].x == 1:
 		print("QB: " + str(QBname[itr]))
