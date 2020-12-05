@@ -1,6 +1,6 @@
 # Fanduel Optimizer
 
-Fanduel Optimizer is a Python implementation of the knapsack problem using FanDuel players and salaries. It is designed to fill the standard lineup of QB, RB, RB, WR, WR, WR, TE, FLEX, and D.
+Fanduel Optimizer is a Python implementation of the knapsack problem using FanDuel players and salaries. It is designed to fill the standard lineup of QB, RB, RB, WR, WR, WR, TE, FLEX, and D. It also includes a script to automatically pull player data from footballdiehards.com.
 
 Example output:
 ```bash
