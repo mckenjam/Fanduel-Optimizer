@@ -41,6 +41,7 @@ python Get_Player_Data.py
 ```
 
 If pulling data using Get_Player_Data.py, you will need to manually delete players from the file Fanduel_Players.csv who aren't available for your contest including (Name, Salary, and Points).  
+  
 Next, simply run the Fanduel_Optimer.py script.
 
 ```
