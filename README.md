@@ -34,7 +34,7 @@ pip install pandas
 
 ## Usage
 
-Use Get_player_Data.py to automatically pull salaries and projected points from [www.footballdiehards.com](https://www.footballdiehards.com/fantasyfootball/dailygames/FanDuel-Salary-data.cfm)
+Use Get_player_Data.py to automatically pull salaries and projected points from [www.footballdiehards.com](https://www.footballdiehards.com/fantasyfootball/dailygames/FanDuel-Salary-data.cfm). This must be performed every new week the optimizer is used.
 
 ```
 python Get_Player_Data.py
