@@ -1,6 +1,6 @@
 # Fanduel Optimizer
 
-Fanduel Optimizer is a Python implementation of the knapsack problem using Fandual players and salaries
+Fanduel Optimizer is a Python implementation of the knapsack problem using FanDuel players and salaries
 
 ## Installation
 
