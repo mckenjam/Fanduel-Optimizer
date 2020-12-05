@@ -1,6 +1,6 @@
 # Fanduel Optimizer
 
-Fanduel Optimizer is a Python implementation of the knapsack problem using FanDuel players and salaries
+Fanduel Optimizer is a Python implementation of the knapsack problem using Fandual players and salaries
 
 ## Installation
 
@@ -19,10 +19,16 @@ pip install pandas
 
 ## Usage
 
-Before executing copy player data and salaries into the Fanduel_Players.csv file
+Use Get_player_Data.py to automatically pull salaries and projected points from [www.footballdiehards.com](https://www.footballdiehards.com/fantasyfootball/dailygames/FanDuel-Salary-data.cfm)
 
 ```
-python Fanduel_Optimizer.py
+python Get_Player_Data.py
+```
+
+If pulling data using Get_Player_Data.py, you will need to manually delete players from the file Fanduel_Players.csv who aren't available. Next, simply run the Fanduel_Optimer.py script.
+
+```
+python Fanduel_Optimer.py
 ```
 
 ## Contributing

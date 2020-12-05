@@ -1,3 +1,5 @@
 ###### Requirements without Version Specifiers ######`
 mip
 pandas
+requests
+beautifulsoup4
