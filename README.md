@@ -22,7 +22,7 @@ pip install pandas
 Before executing copy player data and salaries into the Fanduel_Players.csv file
 
 ```
-python Fanduel_Optimer.py
+python Fanduel_Optimizer.py
 ```
 
 ## Contributing
