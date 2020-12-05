@@ -19,7 +19,7 @@ Total Cost: 60000.0
 
 ## Installation
 
-(Python-MIP)[https://python-mip.readthedocs.io/en/latest/] is the only requirement for executing the optimization solver. It automatically installs COIN-OR to solve optimization problems.
+[Python-MIP](https://python-mip.readthedocs.io/en/latest/) is the only requirement for executing the optimization solver. It automatically installs COIN-OR to solve optimization problems.
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
