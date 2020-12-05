@@ -26,10 +26,10 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Python-
 pip install mip
 ```
 
-If you don't have Pandas installed
+To use Get_Player_Data.py you must install Beautiful Soup which is a Python package to scrape website data
 
 ```bash
-pip install pandas
+pip install beautifulsoup4
 ```
 
 Alternatively, install the required packages from the requirements.txt file
